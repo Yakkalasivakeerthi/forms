@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <img src="C:\Users\DELL\OneDrive\รูปภาพ\Screenshots\Screenshot 2025-07-29 160033.png"alt="Tsrtc">
+    <form action="./submit.html"method="get"enctype="text/plain"autocomplete="off">
+        <fieldset>
+            <legend>APPLICANT DETAILS</legend>
+        <label for="Name">Name:<sup style="color: red;">*</sup></label>
+        <input type="text"name="Name"id="Name"required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Father's/Guardian's Name">Father's/Guardian's Name:<sup style="color: red;">*</sup></label>
+        <input type="text"Father's/Guardian's Name="Father's/Guardian's Name"id="Father's/Guardian's Name"required>
+        <br>
+        <br>
+        <label for="Date of Birth">Date of Birth:<sup style="color: red;">*</sup></label>
+        <input type="date"Date of Birth="Date of Birth"id="Date of Birth"required>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Gender">Gender:<sup style="color: red;">*</sup></label>
+        <input type="radio"Gender="Gender"id="Male"value="Male">
+        <label for="Male">Male</label>
+        
+        <input type="radio"Gender="Gender"id="Female"value="Female">
+        <label for="Female">Female</label>
+        <br>
+        <br>
+        <label for="Aadhar No">Aadhar No:<sup style="color: red;">*</sup></label>
+        <input type="text"name="Aadhar No"id="Aadhar No" maxlength="12"minlength="12"required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <label for="Whatsapp No">Whatsapp No:<sup style="color: red;">*</sup></label>
+        <input type="tel"name="Whatsapp No"id="Whatsapp No"required autofocus>
+        <br>
+        <br>
+        <label for="Email">Email:<sup style="color: red;">*</sup></label>
+        <input type="Email"name="Email"id="Email"required>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Photo">Photo:<sup style="color: red;">*</sup></label>
+        <input type="file"name="file"id="Photo"required>
+        </fieldset>
+        <fieldset>
+            <legend>RESIDENTIAL ADDRESS DETAILS</legend>
+            <label for="Applicant Address">Applicant Address:<sup style="color: red;">*</sup></label>
+            <textarea id="Applicant Address"name="Applicant Address"></textarea>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="District">District:<sup style="color: red;">*</sup></label>
+            <select id="District" name="District">
+                <option value=""></option>
+                <option value="Krishna">Krishna</option>
+                <option value="Guntur">Guntur</option>
+                <option value="Prakasam">Prakasam</option>
+                <option value="Nellore">Nellore</option>
+            </select>
+            <br>
+            <br>
+            <label for="Mandal">Mandal:<sup style="color: red;">*</sup></label>
+            <select id="Mandal" name="Mandal">
+                <option value=""></option>
+                <option value="PEDANA">PEDANA</option>
+                <option value="MACHILIPATNAM">MACHILIPATNAM</option>
+                <option value="KAVUTHARAM">KAVUTHARAM</option>
+                <option value="GUDUR">GUDUR</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Village">Village:<sup style="color: red;">*</sup></label>
+            <select id="Village" name="Village">
+                <option value=""></option>
+                <option value="PEDANA">PEDANA</option>
+                <option value="MACHILIPATNAM">MACHILIPATNAM</option>
+                <option value="KAVUTHARAM">KAVUTHARAM</option>
+                <option value="GUDUR">GUDUR</option>
+            </select>
+            <br>
+            <br>
+            <label for="Pincode">Pincode:<sup style="color: red;">*</sup></label>
+            <input type="text"name="Pincode"id="Pincode"required>
+        </fieldset>
+        <fieldset>
+            <legend>PASS TYPE DETAILS</legend>
+            <label for="City">City:<sup style="color: red;">*</sup></label>
+            <select id="City" name="City">
+                <option value=""></option>
+                <option value="PEDANA">PEDANA</option>
+                <option value="MACHILIPATNAM">MACHILIPATNAM</option>
+                <option value=">KAVUTHARAM">KAVUTHARAM</option>
+                <option value="GUDUR">GUDUR</option>
+            </select>
+            <br>
+            <br>
+            <label for="Pass Type">Pass Type:<sup style="color: red;">*</sup></label>
+            <select id="Pass Type" name="Pass Type">
+                <option value="--Select--">--Select--</option>
+                <option value="STUDENT PASS">STUDENT PASS</option>
+                <option value=">GENERAL COMMUTER PASS">GENERAL COMMUTER PASS</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>MODE OF PAYMENT & PASS COLLECTION</legend>
+            <label for="Payment Mode">Payment Mode:<sup style="color: red;">*</sup></label>
+            <select id="Payment Mode" name="Payment Mode">
+                <option value="--Select payment mode--">--Select payment mode--</option>
+                <option value="PHONEPAY">PHONEPAY</option>
+                <option value=">GOOGLE PAY">GOOGLE PAY</option>
+            </select>
+            <br>
+            <br>
+            <label for="Pass Delivery Mode">Pass Delivery Mode:<sup style="color: red;">*</sup></label>
+            <select id="Pass Delivery Mode" name="Pass Delivery Mode">
+                <option value="--Select pass Delivery mode--">--Select pass Delivery mode--</option>
+                <option value="PEDANA">PEDANA</option>
+                <option value=">MACHILIPATNAM">MACHILIPATNAM</option>
+            </select>
+            <br>
+            <br>
+            <label for="Center at which you want to collect pass">Center at which you want to collect pass:<sup style="color: red;">*</sup></label>
+            <select id="Center at which you want to collect pass" name="Center at which you want to collect pass">
+                <option value="--Select--">--Select--</option>
+                <option value="PEDANA">PEDANA</option>
+                <option value=">MACHILIPATNAM">MACHILIPATNAM</option>
+            </select>
+        </fieldset>
+        
+        <input type="SUBMIT"name="SUBMIT"id="SUBMIT">
+        
+    </form>
+</body>
+</html>
